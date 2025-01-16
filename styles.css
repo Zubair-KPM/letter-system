@@ -1,0 +1,94 @@
+        /* Custom Styles */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            height: 100vh;
+            margin: 0;
+            background-image: url('/image/bg1.png');
+            /* Add your background image URL */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .sidebar {
+            background-color: rgba(52, 58, 64, 0.8);
+            color: white;
+            width: 250px;
+            padding-top: 20px;
+            height: 100%;
+        }
+
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            display: block;
+            font-size: 18px;
+        }
+
+        .sidebar a:hover {
+            background-color: #575757;
+        }
+
+        .content {
+            flex-grow: 1;
+            display: flex;
+            padding: 20px;
+            justify-content: space-between;
+        }
+
+        .form-container {
+            width: 45%;
+        }
+
+        .letter-template {
+            width: 45%;
+            border: 1px solid #ccc;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            background-image: url('/image/footer-bg.png');
+            background-position: center;
+            background-repeat: repeat;
+            background-size: cover;
+            color: #fff;
+        }
+
+        .letter-template h3 {
+            text-align: center;
+        }
+
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-container input {
+            margin-bottom: 15px;
+        }
+
+        .letter-preview p {
+            margin: 10px 0;
+        }
+        
+        .letter-template {
+    width: 210mm; /* A4 Width */
+    height: 297mm; /* A4 Height */
+    padding: 20mm;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #000;
+    box-sizing: border-box;
+}
+
+.letter-template h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.letter-template p {
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
